@@ -1,0 +1,44 @@
+stages:
+  - build
+  - back
+
+build-client:
+  stage: build
+
+  only:
+    - develop
+    - master
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - sub2/frontend/node_modules
+  script:
+    - cd $CI_PROJECT_DIR
+    - cd sub2/frontend
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - sub2/frontend/dist/
+  tags:
+    - deploy
+build-server:
+  stage: back
+
+  only:
+    - develop
+    - master
+
+  script:
+    - sudo su - gitlab-runner
+    - cd $CI_PROJECT_DIR
+    - cd sub2/backend
+    - python3 -m venv venv
+    - source venv/bin/activate
+    - pip install -r requirements.txt
+    - pip install uwsgi
+    - sudo systemctl daemon-reload
+    - sudo systemctl restart uwsgi
+    - sudo chmod 777 -R /home/gitlab-runner/
+  tags:
+    - deploy
