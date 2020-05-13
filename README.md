@@ -21,13 +21,11 @@
   - [서비스 개요](#서비스-개요)
   - [Introduction](#introduction)
   - [사용기술](#%ec%82%ac%ec%9a%a9%ea%b8%b0%ec%88%a0)
-  - [시퀀스 다이어그램](#시퀀스-다이어그램)
   - [My Role](#my-role)
-  - [Prerequisite](#prerequisite)
+  - [시퀀스 다이어그램](#시퀀스-다이어그램)
   - [Development](#development)
     - [Install](#install)
-    - [Testing](#testing)
-    - [Commit](#commit)
+    - [How to Run](#how-to-run)
   - [시연영상](#시연영상)
   - [Team](#team)
   - [Stack](#stack)
@@ -72,6 +70,18 @@ Vuetify : 반응형 웹
 
 
 
+##  My Role
+
+```
+1. 식당 상세정보 페이지 구현(Kakao 지도 api)
+2. 리뷰 페이지 구현(Google chart)
+3. 비슷한 식당 추천 페이지
+4. 유저맞춤 식당추천 페이지
+5. 검색 페이지
+```
+
+
+
 ## 시퀀스 다이어그램
 
 #### 1. 로그인
@@ -86,23 +96,8 @@ Vuetify : 반응형 웹
 
 ![sd3](./assets/images/검색.jpg)
 
-##  My Role
-
-```
-1. 식당 상세정보 페이지 구현(Kakao 지도 api)
-2. 리뷰 페이지 구현(Google chart)
-3. 비슷한 식당 추천 페이지
-4. 유저맞춤 식당추천 페이지
-5. 검색 페이지
-```
 
 
-
-
-## Prerequisite
-We recommend using [nvm](https://github.com/creationix/nvm) (or [nvm-windows](https://github.com/coreybutler/nvm-windows)) to manage and install Node.js, which makes it easy to change the version of Node.js per project.
-- [Yarn](https://yarnpkg.com): We use Yarn to install our Node.js module dependencies (rather than using npm).
-- [Git Flow](https://github.com/nvie/gitflow/wiki/Installation): We are following Git Flow for maintaining software versions.
 ## Development
 
 ### Install
