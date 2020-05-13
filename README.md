@@ -89,14 +89,11 @@ Vuetify : 반응형 웹
 ##  My Role
 
 ```
-1. MySQL DB설계
-2. Spring Boot, JPA를 이용한 REST api구현
-3. 로그인 JWT 토큰 발급
-4. Spring Security를 이용한 토큰인증 및 권한 설정
-5. Querydsl로 사용자정의 쿼리문 구현
-6. 리뷰리스트 페이지 구현(프론트)
-7. AWS EC2 + Nginx로 프로젝트 배포
-8. UCC 촬영 및 편집
+1. 식당 상세정보 페이지 구현(Kakao 지도 api)
+2. 리뷰 페이지 구현(Google chart)
+3. 비슷한 식당 추천 페이지
+4. 유저맞춤 식당추천 페이지
+5. 검색 페이지
 ```
 
 
