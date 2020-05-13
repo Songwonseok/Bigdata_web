@@ -18,7 +18,7 @@
 
 - [이번에 모먹지](#이번에-모먹지(이모!))
   - [Table of Contents](#table-of-contents)
-  - [서비스 소개](#서비스-소개)
+  - [서비스 개요](#서비스-개요)
   - [Introduction](#introduction)
   - [사용기술](#%ec%82%ac%ec%9a%a9%ea%b8%b0%ec%88%a0)
   - [시퀀스 다이어그램](#시퀀스-다이어그램)
@@ -33,7 +33,7 @@
   - [Stack](#stack)
   - [license](#license)
   - [About](#about)
-## 서비스 소개
+## 서비스 개요
 
 ![개요](./assets/images/개요.jpg)
 
